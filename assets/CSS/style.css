@@ -7,7 +7,6 @@ body {
   background-color: #000316;
   background-size: cover;
   background-repeat: no-repeat;
-  min-height: 100vh;
 }
 
 header {
@@ -17,24 +16,26 @@ h1 {
   font-size: 56px;
   font-family: "Pinyon Script", cursive;
   font-weight: 400;
-  margin-bottom: 0;
-  margin-top: 0.5rem;
+  margin: 1rem;
   font-size: 64px;
   color: #ffcb68;
 }
 
 #tabellone {
-  width: 90%;
+  width: 60%;
   margin: auto;
   border-radius: 15px;
 }
 
 .cells {
   display: inline-block;
-  border-radius: 5px;
-  margin: 1% 1.8%;
-  width: 6%;
-  height: 3rem;
+  color: #000316;
+  text-align: center;
+  padding: 8px;
+  border-radius: 50%;
+  margin: 0 1.3% 1.2% 1.3%;
+  width: 25px;
+  height: 25px;
   background-color: #caccda;
 }
 
@@ -46,7 +47,8 @@ button {
   padding: 8px;
   background-color: #ffcb68;
   border-radius: 5px;
-  margin: 1.5rem;
+  margin: 0.5rem;
+  border-style: none;
 }
 
 button:hover {
