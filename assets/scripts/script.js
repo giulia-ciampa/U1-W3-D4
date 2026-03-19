@@ -17,15 +17,13 @@ const drawnNumbers = function () {
   const number = Math.ceil(Math.random() * 90);
   console.log("numero estratto:", number);
 
-  const tutteLeCelle = document.querySelectorAll("cells");
+  const tutteLeCelle = document.querySelectorAll(".cells");
   const cellaGiusta = tutteLeCelle[number - 1];
 
   if (cellaGiusta) {
     cellaGiusta.classList.add("evidenziato");
   }
 };
-
-drawnNumbers();
 
 const bottoneEstrazione = document.querySelector("button");
 bottoneEstrazione.addEventListener("click", function () {
