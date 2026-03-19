@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap");
+
+body {
+  margin: 0;
+  background-image: url("../images/background.jpg");
+  background-position: initial;
+  background-color: #000316;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+header {
+  text-align: center;
+}
+h1 {
+  font-size: 56px;
+  font-family: "Pinyon Script", cursive;
+  font-weight: 400;
+  margin-bottom: 0;
+  margin-top: 0.5rem;
+  font-size: 64px;
+  color: #ffcb68;
+}
+
+#tabellone {
+  width: 90%;
+  margin: auto;
+  border-radius: 15px;
+}
+
+.cells {
+  display: inline-block;
+  border-radius: 5px;
+  margin: 1% 1.8%;
+  width: 6%;
+  height: 3rem;
+  background-color: #caccda;
+}
+
+main {
+  text-align: center;
+}
+button {
+  color: #000316;
+  padding: 8px;
+  background-color: #ffcb68;
+  border-radius: 5px;
+  margin: 1.5rem;
+}
+
+button:hover {
+  background-color: #ffca6863;
+  cursor: pointer;
+}
+
+.evidenziato {
+  background-color: #ffcb68;
+  color: #000316;
+}
